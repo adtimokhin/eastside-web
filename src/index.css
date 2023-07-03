@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: "CodeNext";
+  src: local("CodeNext"),
+    url("fonts/CodeNext/CodeNext-Trial-Black.otf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "CodeNext";
+  src: local("CodeNext"),
+    url("fonts/CodeNext/CodeNext-Trial-Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CodeNext";
+  src: local("CodeNext"),
+    url("fonts/CodeNext/CodeNext-Trial-Book.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CodeNext";
+  src: local("CodeNext"),
+    url("fonts/CodeNext/CodeNext-Trial-ExtraBold.otf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "CodeNext";
+  src: local("CodeNext"),
+    url("fonts/CodeNext/CodeNext-Trial-SemiBold.otf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "CodeNext";
+  src: local("CodeNext"),
+    url("fonts/CodeNext/CodeNext-Trial-Hairline.otf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "CodeNext";
+  src: local("CodeNext"),
+    url("fonts/CodeNext/CodeNext-Trial-Heavy.otf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "CodeNext";
+  src: local("CodeNext"),
+    url("fonts/CodeNext/CodeNext-Trial-Light.otf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "CodeNext";
+  src: local("CodeNext"),
+    url("fonts/CodeNext/CodeNext-Trial-Regular.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CodeNext";
+  src: local("CodeNext"),
+    url("fonts/CodeNext/CodeNext-Trial-SemiBold.otf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "CodeNext";
+  src: local("CodeNext"),
+    url("fonts/CodeNext/CodeNext-Trial-Thin.otf") format("truetype");
+  font-weight: 200;
+}

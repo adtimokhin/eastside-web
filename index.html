@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+
+    <style>
+      @keyframes loading-animation {
+        0%{
+          opacity: 0;
+        }50%{
+          opacity: 1;
+        }
+        100%{
+          opacity: 0;
+        }
+      }
+      .loading{
+        animation-name: loading-animation;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body class="bg-[#211E1D] font-codenext text-white">
+
+    <!-- LOADING SCREEN -->
+    <!-- <div class="w-screen h-screen loading absolute z-50" id="loading-screen">
+      <div class="w-full h-fit absolute top-1/2 -translate-y-1/2">
+        <div class=" bg-[#8B1700] py-3 flex items-center justify-center text-white">
+          <div class="text-center">
+            <h1 class="font-semibold text-[64px]">EASTSIDE</h1>
+            <h2 class="font-regular text-[24px] -mt-4">Футболки</h2>
+          <div/>
+      </div>
+    </div>
+     
+    </div> -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
